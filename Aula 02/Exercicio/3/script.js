@@ -1,45 +1,45 @@
 function myFunction() {
-    let numero = document.getElementById('numero').value;
+    let numero = document.getElementById("numero").value;
 
     switch (Number(numero)) {
         case 1:
-            alert('Janeiro');
+            alert("Janeiro");
             break;
         case 2:
-            alert('Fevereiro');
+            alert("Fevereiro");
             break;
         case 3:
-            alert('Março');
+            alert("Março");
             break;
         case 4:
-            alert('Abril');
+            alert("Abril");
             break;
         case 5:
-            alert('Maio');
+            alert("Maio");
             break;
         case 6:
-            alert('Junho');
+            alert("Junho");
             break;
         case 7:
-            alert('Julho');
+            alert("Julho");
             break;
         case 8:
-            alert('Agosto');
+            alert("Agosto");
             break;
         case 9:
-            alert('Setembro');
+            alert("Setembro");
             break;
         case 10:
-            alert('Outubro');
+            alert("Outubro");
             break;
         case 11:
-            alert('Novembro');
+            alert("Novembro");
             break;
         case 12:
-            alert('Dezembro');
+            alert("Dezembro");
             break;
         default:
-            alert('Não encontrei este mês');
+            alert("Não encontrei este mês");
             break;
     };
 };
