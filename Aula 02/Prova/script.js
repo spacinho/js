@@ -1,4 +1,4 @@
-let idade = prompt('Digite a sua idade');
+let idade = prompt("Digite a sua idade");
 
 if (idade.length == 0) {
     alert("Digite uma idade válida");
