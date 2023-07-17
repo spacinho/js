@@ -1,5 +1,3 @@
-
-
 let aleatorio = Math.floor(Math.random() * 10);
 
 let tentativas = 10;
