@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<header>
+    <meta charset="utf-8" />
+</header>
+
+<body>
+    <script src="script.js"></script>
+
+
+    <p id="resposta"></p>
+    <script>
+        let caracteres;
+        do {
+            caracteres = prompt('Digite um caractere por vez para formar uma palavra. E use \'finalizar\' para ver o resultado');
+            if (caracteres !== 'finalizar') {
+                document.getElementById('resposta').innerHTML += caracteres;
+            };
+
+        } while (caracteres !== 'finalizar');
+    </script>
+</body>
+
+</html>
